@@ -1,33 +1,37 @@
-header, main, body{
+header,
+main,
+body {
   background-color: antiquewhite;
 }
 
-.magic{
+.magic {
   font-family: 'Noto Serif', serif;
 }
-.hero-image { 
+
+.hero-image {
   width: 100vw;
   height: 60vh;
   object-fit: cover;
   object-position: 50% 65%;
 }
+
 .card-text-shadow {
   text-shadow: gray 1px 0 15px;
 }
 
-.image-potion{
+.image-potion {
   width: 23vw;
   height: 131vh;
   object-fit: cover;
   object-position: 50% 0%;
 }
 
-.flavor-text{
+.flavor-text {
   max-width: 60vw;
 }
 
-@media (max-width: 820px){
-  .image-potion{
+@media (max-width: 820px) {
+  .image-potion {
     width: 92vw;
     height: 131vh;
     object-fit: cover;
