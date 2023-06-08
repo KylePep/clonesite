@@ -16,8 +16,8 @@ header, main, body{
 }
 
 .image-potion{
-  width: 387px;
-  height: 581px;
+  width: 23vw;
+  height: 131vh;
   object-fit: cover;
   object-position: 50% 0%;
 }
@@ -28,8 +28,8 @@ header, main, body{
 
 @media (max-width: 820px){
   .image-potion{
-    width: 387px;
-    height: 581px;
+    width: 92vw;
+    height: 131vh;
     object-fit: cover;
     object-position: 50% 0%;
   }
